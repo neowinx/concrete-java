@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Utility &#x2013; Project Dependencies</title>
+    <title>Validation &#x2013; Project Dependencies</title>
     <style type="text/css" media="all">
       @import url("./css/maven-base.css");
       @import url("./css/maven-theme.css");
@@ -17,7 +17,7 @@
   <body class="composite">
     <div id="banner">
                     <div id="bannerLeft">
-                Utility
+                Validation
                 </div>
                     <div class="clear">
         <hr/>
@@ -30,7 +30,7 @@
         <span id="publishDate">Last Published: 2015-03-16</span>
                   &nbsp;| <span id="projectVersion">Version: 4.4.4-SNAPSHOT</span>
                       </div>
-            <div class="xright">                    <a href="./" title="Utility">Utility</a>
+            <div class="xright">                    <a href="./" title="Validation">Validation</a>
               
                     
       </div>
@@ -133,18 +133,6 @@
 <td>jar</td>
 <td><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">The Apache Software License, Version 2.0</a></td></tr>
 <tr class="a">
-<td>commons-io</td>
-<td><a class="externalLink" href="http://commons.apache.org/io/">commons-io</a></td>
-<td>2.4</td>
-<td>jar</td>
-<td><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">The Apache Software License, Version 2.0</a></td></tr>
-<tr class="b">
-<td>edu.jhu.hlt</td>
-<td><a class="externalLink" href="https://github.com/maxthomas/acute">acute</a></td>
-<td>2.0.2</td>
-<td>jar</td>
-<td><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></td></tr>
-<tr class="a">
 <td>edu.jhu.hlt</td>
 <td><a class="externalLink" href="https://github.com/hltcoe/concrete-core">concrete-core</a></td>
 <td>4.4</td>
@@ -152,22 +140,10 @@
 <td><a class="externalLink" href="http://opensource.org/licenses/BSD-2-Clause">BSD 2-Clause License</a></td></tr>
 <tr class="b">
 <td>edu.jhu.hlt</td>
-<td><a class="externalLink" href="https://hltcoe.github.io/concrete-java/safe/">concrete-safe</a></td>
+<td><a class="externalLink" href="https://hltcoe.github.io/concrete-java/util/">concrete-util</a></td>
 <td>4.4.4-SNAPSHOT</td>
 <td>jar</td>
 <td><a class="externalLink" href="http://opensource.org/licenses/BSD-2-Clause">2-clause BSD license</a></td></tr>
-<tr class="a">
-<td>joda-time</td>
-<td><a class="externalLink" href="http://www.joda.org/joda-time/">joda-time</a></td>
-<td>2.7</td>
-<td>jar</td>
-<td><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">Apache 2</a></td></tr>
-<tr class="b">
-<td>org.apache.commons</td>
-<td><a class="externalLink" href="http://commons.apache.org/proper/commons-compress/">commons-compress</a></td>
-<td>1.9</td>
-<td>jar</td>
-<td><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">The Apache Software License, Version 2.0</a></td></tr>
 <tr class="a">
 <td>org.apache.logging.log4j</td>
 <td><a class="externalLink" href="http://logging.apache.org/log4j/2.x/log4j-api/">log4j-api</a></td>
@@ -185,7 +161,13 @@
 <td><a class="externalLink" href="http://logging.apache.org/log4j/2.x/log4j-slf4j-impl/">log4j-slf4j-impl</a></td>
 <td>2.1</td>
 <td>jar</td>
-<td><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">The Apache Software License, Version 2.0</a></td></tr></table></div><a name="Project_Dependencies_test"></a>
+<td><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">The Apache Software License, Version 2.0</a></td></tr>
+<tr class="b">
+<td>org.slf4j</td>
+<td><a class="externalLink" href="http://www.slf4j.org">slf4j-api</a></td>
+<td>1.7.7</td>
+<td>jar</td>
+<td><a class="externalLink" href="http://www.opensource.org/licenses/mit-license.php">MIT License</a></td></tr></table></div><a name="Project_Dependencies_test"></a>
 <div class="section">
 <h3><a name="test"></a>test</h3>
 <p>The following is a list of test dependencies for this project. These dependencies are only required to compile and run unit tests for the application:</p>
@@ -228,47 +210,71 @@
 <td>jar</td>
 <td><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">The Apache Software License, Version 2.0</a></td></tr>
 <tr class="a">
+<td>commons-io</td>
+<td><a class="externalLink" href="http://commons.apache.org/io/">commons-io</a></td>
+<td>2.4</td>
+<td>jar</td>
+<td><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">The Apache Software License, Version 2.0</a></td></tr>
+<tr class="b">
 <td>commons-logging</td>
 <td><a class="externalLink" href="http://commons.apache.org/logging">commons-logging</a></td>
 <td>1.1.1</td>
 <td>jar</td>
 <td><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">The Apache Software License, Version 2.0</a></td></tr>
+<tr class="a">
+<td>edu.jhu.hlt</td>
+<td><a class="externalLink" href="https://github.com/maxthomas/acute">acute</a></td>
+<td>2.0.2</td>
+<td>jar</td>
+<td><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></td></tr>
 <tr class="b">
+<td>edu.jhu.hlt</td>
+<td><a class="externalLink" href="https://hltcoe.github.io/concrete-java/safe/">concrete-safe</a></td>
+<td>4.4.4-SNAPSHOT</td>
+<td>jar</td>
+<td><a class="externalLink" href="http://opensource.org/licenses/BSD-2-Clause">2-clause BSD license</a></td></tr>
+<tr class="a">
 <td>edu.jhu.hlt</td>
 <td><a class="externalLink" href="https://github.com/maxthomas/utilt">utilt</a></td>
 <td>1.2.0</td>
 <td>jar</td>
 <td><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></td></tr>
+<tr class="b">
+<td>joda-time</td>
+<td><a class="externalLink" href="http://www.joda.org/joda-time/">joda-time</a></td>
+<td>2.7</td>
+<td>jar</td>
+<td><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">Apache 2</a></td></tr>
 <tr class="a">
+<td>org.apache.commons</td>
+<td><a class="externalLink" href="http://commons.apache.org/proper/commons-compress/">commons-compress</a></td>
+<td>1.9</td>
+<td>jar</td>
+<td><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">The Apache Software License, Version 2.0</a></td></tr>
+<tr class="b">
 <td>org.apache.commons</td>
 <td><a class="externalLink" href="http://commons.apache.org/lang/">commons-lang3</a></td>
 <td>3.1</td>
 <td>jar</td>
 <td><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">The Apache Software License, Version 2.0</a></td></tr>
-<tr class="b">
+<tr class="a">
 <td>org.apache.httpcomponents</td>
 <td><a class="externalLink" href="http://hc.apache.org/httpcomponents-client">httpclient</a></td>
 <td>4.2.5</td>
 <td>jar</td>
 <td>LICENSE.txt</td></tr>
-<tr class="a">
+<tr class="b">
 <td>org.apache.httpcomponents</td>
 <td><a class="externalLink" href="http://hc.apache.org/httpcomponents-core-ga">httpcore</a></td>
 <td>4.2.4</td>
 <td>jar</td>
 <td>LICENSE.txt</td></tr>
-<tr class="b">
+<tr class="a">
 <td>org.apache.thrift</td>
 <td><a class="externalLink" href="http://thrift.apache.org">libthrift</a></td>
 <td>0.9.1</td>
 <td>jar</td>
-<td><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">The Apache Software License, Version 2.0</a></td></tr>
-<tr class="a">
-<td>org.slf4j</td>
-<td><a class="externalLink" href="http://www.slf4j.org">slf4j-api</a></td>
-<td>1.7.7</td>
-<td>jar</td>
-<td><a class="externalLink" href="http://www.opensource.org/licenses/mit-license.php">MIT License</a></td></tr></table></div><a name="Project_Transitive_Dependencies_test"></a>
+<td><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">The Apache Software License, Version 2.0</a></td></tr></table></div><a name="Project_Transitive_Dependencies_test"></a>
 <div class="section">
 <h3><a name="test"></a>test</h3>
 <p>The following is a list of test dependencies for this project. These dependencies are only required to compile and run unit tests for the application:</p>
@@ -307,14 +313,14 @@
 <div class="section">
 <h3><a name="Dependency_Tree"></a>Dependency Tree</h3>
 <ul>
-<li>edu.jhu.hlt:concrete-util:jar:4.4.4-SNAPSHOT <img id="_img1" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep0', '_img1' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep0" style="display:none">
+<li>edu.jhu.hlt:concrete-validation:jar:4.4.4-SNAPSHOT <img id="_img1" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep0', '_img1' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep0" style="display:none">
 <table border="0" class="bodyTable">
 <tr class="a">
-<th>Utility</th></tr>
+<th>Validation</th></tr>
 <tr class="b">
 <td>
-<p><b>Description: </b>Utility library for use with Concrete-Java</p>
-<p><b>URL: </b><a class="externalLink" href="https://hltcoe.github.io/concrete-java/util/">https://hltcoe.github.io/concrete-java/util/</a></p>
+<p><b>Description: </b>Validation library for use with Concrete-Java</p>
+<p><b>URL: </b><a class="externalLink" href="https://hltcoe.github.io/concrete-java/validation/">https://hltcoe.github.io/concrete-java/validation/</a></p>
 <p><b>Project License: </b><a class="externalLink" href="http://opensource.org/licenses/BSD-2-Clause">2-clause BSD license</a></p></td></tr></table></div>
 <ul>
 <li>edu.jhu.hlt:concrete-core:jar:4.4 (compile) <img id="_img3" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep2', '_img3' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep2" style="display:none">
@@ -389,7 +395,17 @@
 <p><b>Description: </b>HttpComponents Core (blocking I/O)</p>
 <p><b>URL: </b><a class="externalLink" href="http://hc.apache.org/httpcomponents-core-ga">http://hc.apache.org/httpcomponents-core-ga</a></p>
 <p><b>Project License: </b><a href="LICENSE.txt">Apache License</a></p></td></tr></table></div></li></ul></li></ul></li>
-<li>edu.jhu.hlt:concrete-safe:jar:4.4.4-SNAPSHOT (compile) <img id="_img17" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep16', '_img17' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep16" style="display:none">
+<li>edu.jhu.hlt:concrete-util:jar:4.4.4-SNAPSHOT (compile) <img id="_img17" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep16', '_img17' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep16" style="display:none">
+<table border="0" class="bodyTable">
+<tr class="a">
+<th>Utility</th></tr>
+<tr class="b">
+<td>
+<p><b>Description: </b>Utility library for use with Concrete-Java</p>
+<p><b>URL: </b><a class="externalLink" href="https://hltcoe.github.io/concrete-java/util/">https://hltcoe.github.io/concrete-java/util/</a></p>
+<p><b>Project License: </b><a class="externalLink" href="http://opensource.org/licenses/BSD-2-Clause">2-clause BSD license</a></p></td></tr></table></div>
+<ul>
+<li>edu.jhu.hlt:concrete-safe:jar:4.4.4-SNAPSHOT (compile) <img id="_img19" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep18', '_img19' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep18" style="display:none">
 <table border="0" class="bodyTable">
 <tr class="a">
 <th>Safe</th></tr>
@@ -398,7 +414,7 @@
 <p><b>Description: </b>Library for use with Concrete that provides compile-time safety in order to defeat issues around 'requiredness' in Thrift.</p>
 <p><b>URL: </b><a class="externalLink" href="https://hltcoe.github.io/concrete-java/safe/">https://hltcoe.github.io/concrete-java/safe/</a></p>
 <p><b>Project License: </b><a class="externalLink" href="http://opensource.org/licenses/BSD-2-Clause">2-clause BSD license</a></p></td></tr></table></div></li>
-<li>joda-time:joda-time:jar:2.7 (compile) <img id="_img19" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep18', '_img19' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep18" style="display:none">
+<li>joda-time:joda-time:jar:2.7 (compile) <img id="_img21" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep20', '_img21' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep20" style="display:none">
 <table border="0" class="bodyTable">
 <tr class="a">
 <th>Joda-Time</th></tr>
@@ -407,100 +423,7 @@
 <p><b>Description: </b>Date and time library to replace JDK date handling</p>
 <p><b>URL: </b><a class="externalLink" href="http://www.joda.org/joda-time/">http://www.joda.org/joda-time/</a></p>
 <p><b>Project License: </b><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">Apache 2</a></p></td></tr></table></div></li>
-<li>junit:junit:jar:4.11 (test) <img id="_img21" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep20', '_img21' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep20" style="display:none">
-<table border="0" class="bodyTable">
-<tr class="a">
-<th>JUnit</th></tr>
-<tr class="b">
-<td>
-<p><b>Description: </b>JUnit is a regression testing framework written by Erich Gamma and Kent Beck.
-        It is used by the developer who implements unit tests in Java.</p>
-<p><b>URL: </b><a class="externalLink" href="http://junit.org">http://junit.org</a></p>
-<p><b>Project License: </b><a class="externalLink" href="http://www.opensource.org/licenses/cpl1.0.txt">Common Public License Version 1.0</a></p></td></tr></table></div>
-<ul>
-<li>org.hamcrest:hamcrest-core:jar:1.3 (test) <img id="_img23" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep22', '_img23' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep22" style="display:none">
-<table border="0" class="bodyTable">
-<tr class="a">
-<th>Hamcrest Core</th></tr>
-<tr class="b">
-<td>
-<p><b>Description: </b>This is the core API of hamcrest matcher framework to be used by third-party framework providers. This includes the a foundation set of matcher implementations for common operations.</p>
-<p><b>URL: </b><a class="externalLink" href="https://github.com/hamcrest/JavaHamcrest/hamcrest-core">https://github.com/hamcrest/JavaHamcrest/hamcrest-core</a></p>
-<p><b>Project License: </b><a class="externalLink" href="http://www.opensource.org/licenses/bsd-license.php">New BSD License</a></p></td></tr></table></div></li></ul></li>
-<li>org.mockito:mockito-all:jar:1.9.5 (test) <img id="_img25" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep24', '_img25' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep24" style="display:none">
-<table border="0" class="bodyTable">
-<tr class="a">
-<th>Mockito</th></tr>
-<tr class="b">
-<td>
-<p><b>Description: </b>Mock objects library for java</p>
-<p><b>URL: </b><a class="externalLink" href="http://www.mockito.org">http://www.mockito.org</a></p>
-<p><b>Project License: </b><a class="externalLink" href="http://code.google.com/p/mockito/wiki/License">The MIT License</a></p></td></tr></table></div></li>
-<li>org.apache.logging.log4j:log4j-api:jar:2.1 (compile) <img id="_img27" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep26', '_img27' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep26" style="display:none">
-<table border="0" class="bodyTable">
-<tr class="a">
-<th>Apache Log4j API</th></tr>
-<tr class="b">
-<td>
-<p><b>Description: </b>The Apache Log4j API</p>
-<p><b>URL: </b><a class="externalLink" href="http://logging.apache.org/log4j/2.x/log4j-api/">http://logging.apache.org/log4j/2.x/log4j-api/</a></p>
-<p><b>Project License: </b><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">The Apache Software License, Version 2.0</a></p></td></tr></table></div></li>
-<li>org.apache.logging.log4j:log4j-core:jar:2.1 (compile) <img id="_img29" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep28', '_img29' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep28" style="display:none">
-<table border="0" class="bodyTable">
-<tr class="a">
-<th>Apache Log4j Core</th></tr>
-<tr class="b">
-<td>
-<p><b>Description: </b>The Apache Log4j Implementation</p>
-<p><b>URL: </b><a class="externalLink" href="http://logging.apache.org/log4j/2.x/log4j-core/">http://logging.apache.org/log4j/2.x/log4j-core/</a></p>
-<p><b>Project License: </b><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">The Apache Software License, Version 2.0</a></p></td></tr></table></div></li>
-<li>org.apache.logging.log4j:log4j-slf4j-impl:jar:2.1 (compile) <img id="_img31" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep30', '_img31' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep30" style="display:none">
-<table border="0" class="bodyTable">
-<tr class="a">
-<th>Apache Log4j SLF4J Binding</th></tr>
-<tr class="b">
-<td>
-<p><b>Description: </b>The Apache Log4j SLF4J API binding to Log4j 2 Core</p>
-<p><b>URL: </b><a class="externalLink" href="http://logging.apache.org/log4j/2.x/log4j-slf4j-impl/">http://logging.apache.org/log4j/2.x/log4j-slf4j-impl/</a></p>
-<p><b>Project License: </b><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">The Apache Software License, Version 2.0</a></p></td></tr></table></div>
-<ul>
-<li>org.slf4j:slf4j-api:jar:1.7.7 (compile) <img id="_img33" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep32', '_img33' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep32" style="display:none">
-<table border="0" class="bodyTable">
-<tr class="a">
-<th>SLF4J API Module</th></tr>
-<tr class="b">
-<td>
-<p><b>Description: </b>The slf4j API</p>
-<p><b>URL: </b><a class="externalLink" href="http://www.slf4j.org">http://www.slf4j.org</a></p>
-<p><b>Project License: </b><a class="externalLink" href="http://www.opensource.org/licenses/mit-license.php">MIT License</a></p></td></tr></table></div></li></ul></li>
-<li>com.fasterxml.jackson.core:jackson-core:jar:2.4.4 (compile) <img id="_img35" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep34', '_img35' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep34" style="display:none">
-<table border="0" class="bodyTable">
-<tr class="a">
-<th>Jackson-core</th></tr>
-<tr class="b">
-<td>
-<p><b>Description: </b>Core Jackson abstractions, basic JSON streaming API implementation</p>
-<p><b>URL: </b><a class="externalLink" href="https://github.com/FasterXML/jackson">https://github.com/FasterXML/jackson</a></p>
-<p><b>Project License: </b><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">The Apache Software License, Version 2.0</a></p></td></tr></table></div></li>
-<li>com.fasterxml.jackson.core:jackson-databind:jar:2.4.4 (compile) <img id="_img37" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep36', '_img37' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep36" style="display:none">
-<table border="0" class="bodyTable">
-<tr class="a">
-<th>jackson-databind</th></tr>
-<tr class="b">
-<td>
-<p><b>Description: </b>General data-binding functionality for Jackson: works on core streaming API</p>
-<p><b>URL: </b><a class="externalLink" href="http://github.com/FasterXML/jackson">http://github.com/FasterXML/jackson</a></p>
-<p><b>Project License: </b><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">The Apache Software License, Version 2.0</a></p></td></tr></table></div></li>
-<li>com.fasterxml.jackson.core:jackson-annotations:jar:2.4.4 (compile) <img id="_img39" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep38', '_img39' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep38" style="display:none">
-<table border="0" class="bodyTable">
-<tr class="a">
-<th>Jackson-annotations</th></tr>
-<tr class="b">
-<td>
-<p><b>Description: </b>Core annotations used for value types, used by Jackson data binding package.</p>
-<p><b>URL: </b><a class="externalLink" href="http://github.com/FasterXML/jackson">http://github.com/FasterXML/jackson</a></p>
-<p><b>Project License: </b><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">The Apache Software License, Version 2.0</a></p></td></tr></table></div></li>
-<li>commons-io:commons-io:jar:2.4 (compile) <img id="_img41" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep40', '_img41' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep40" style="display:none">
+<li>commons-io:commons-io:jar:2.4 (compile) <img id="_img23" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep22', '_img23' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep22" style="display:none">
 <table border="0" class="bodyTable">
 <tr class="a">
 <th>Commons IO</th></tr>
@@ -510,7 +433,7 @@
 file comparators, endian transformation classes, and much more.</p>
 <p><b>URL: </b><a class="externalLink" href="http://commons.apache.org/io/">http://commons.apache.org/io/</a></p>
 <p><b>Project License: </b><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">The Apache Software License, Version 2.0</a></p></td></tr></table></div></li>
-<li>org.apache.commons:commons-compress:jar:1.9 (compile) <img id="_img43" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep42', '_img43' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep42" style="display:none">
+<li>org.apache.commons:commons-compress:jar:1.9 (compile) <img id="_img25" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep24', '_img25' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep24" style="display:none">
 <table border="0" class="bodyTable">
 <tr class="a">
 <th>Apache Commons Compress</th></tr>
@@ -522,7 +445,7 @@ These include: bzip2, gzip, pack200, lzma, xz, Snappy, traditional
 Unix Compress, DEFLATE and ar, cpio, jar, tar, zip, dump, 7z, arj.</p>
 <p><b>URL: </b><a class="externalLink" href="http://commons.apache.org/proper/commons-compress/">http://commons.apache.org/proper/commons-compress/</a></p>
 <p><b>Project License: </b><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">The Apache Software License, Version 2.0</a></p></td></tr></table></div></li>
-<li>edu.jhu.hlt:acute:jar:2.0.2 (compile) <img id="_img45" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep44', '_img45' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep44" style="display:none">
+<li>edu.jhu.hlt:acute:jar:2.0.2 (compile) <img id="_img27" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep26', '_img27' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep26" style="display:none">
 <table border="0" class="bodyTable">
 <tr class="a">
 <th>acute</th></tr>
@@ -532,7 +455,7 @@ Unix Compress, DEFLATE and ar, cpio, jar, tar, zip, dump, 7z, arj.</p>
 <p><b>URL: </b><a class="externalLink" href="https://github.com/maxthomas/acute">https://github.com/maxthomas/acute</a></p>
 <p><b>Project License: </b><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></p></td></tr></table></div>
 <ul>
-<li>edu.jhu.hlt:utilt:jar:1.2.0 (compile) <img id="_img47" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep46', '_img47' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep46" style="display:none">
+<li>edu.jhu.hlt:utilt:jar:1.2.0 (compile) <img id="_img29" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep28', '_img29' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep28" style="display:none">
 <table border="0" class="bodyTable">
 <tr class="a">
 <th>Utilt</th></tr>
@@ -540,7 +463,99 @@ Unix Compress, DEFLATE and ar, cpio, jar, tar, zip, dump, 7z, arj.</p>
 <td>
 <p><b>Description: </b>Yet another java utility library.</p>
 <p><b>URL: </b><a class="externalLink" href="https://github.com/maxthomas/utilt">https://github.com/maxthomas/utilt</a></p>
-<p><b>Project License: </b><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></p></td></tr></table></div></li></ul></li></ul></li></ul></div></div><a name="Licenses"></a>
+<p><b>Project License: </b><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></p></td></tr></table></div></li></ul></li></ul></li>
+<li>junit:junit:jar:4.11 (test) <img id="_img31" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep30', '_img31' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep30" style="display:none">
+<table border="0" class="bodyTable">
+<tr class="a">
+<th>JUnit</th></tr>
+<tr class="b">
+<td>
+<p><b>Description: </b>JUnit is a regression testing framework written by Erich Gamma and Kent Beck.
+        It is used by the developer who implements unit tests in Java.</p>
+<p><b>URL: </b><a class="externalLink" href="http://junit.org">http://junit.org</a></p>
+<p><b>Project License: </b><a class="externalLink" href="http://www.opensource.org/licenses/cpl1.0.txt">Common Public License Version 1.0</a></p></td></tr></table></div>
+<ul>
+<li>org.hamcrest:hamcrest-core:jar:1.3 (test) <img id="_img33" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep32', '_img33' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep32" style="display:none">
+<table border="0" class="bodyTable">
+<tr class="a">
+<th>Hamcrest Core</th></tr>
+<tr class="b">
+<td>
+<p><b>Description: </b>This is the core API of hamcrest matcher framework to be used by third-party framework providers. This includes the a foundation set of matcher implementations for common operations.</p>
+<p><b>URL: </b><a class="externalLink" href="https://github.com/hamcrest/JavaHamcrest/hamcrest-core">https://github.com/hamcrest/JavaHamcrest/hamcrest-core</a></p>
+<p><b>Project License: </b><a class="externalLink" href="http://www.opensource.org/licenses/bsd-license.php">New BSD License</a></p></td></tr></table></div></li></ul></li>
+<li>org.mockito:mockito-all:jar:1.9.5 (test) <img id="_img35" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep34', '_img35' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep34" style="display:none">
+<table border="0" class="bodyTable">
+<tr class="a">
+<th>Mockito</th></tr>
+<tr class="b">
+<td>
+<p><b>Description: </b>Mock objects library for java</p>
+<p><b>URL: </b><a class="externalLink" href="http://www.mockito.org">http://www.mockito.org</a></p>
+<p><b>Project License: </b><a class="externalLink" href="http://code.google.com/p/mockito/wiki/License">The MIT License</a></p></td></tr></table></div></li>
+<li>org.slf4j:slf4j-api:jar:1.7.7 (compile) <img id="_img37" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep36', '_img37' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep36" style="display:none">
+<table border="0" class="bodyTable">
+<tr class="a">
+<th>SLF4J API Module</th></tr>
+<tr class="b">
+<td>
+<p><b>Description: </b>The slf4j API</p>
+<p><b>URL: </b><a class="externalLink" href="http://www.slf4j.org">http://www.slf4j.org</a></p>
+<p><b>Project License: </b><a class="externalLink" href="http://www.opensource.org/licenses/mit-license.php">MIT License</a></p></td></tr></table></div></li>
+<li>org.apache.logging.log4j:log4j-api:jar:2.1 (compile) <img id="_img39" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep38', '_img39' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep38" style="display:none">
+<table border="0" class="bodyTable">
+<tr class="a">
+<th>Apache Log4j API</th></tr>
+<tr class="b">
+<td>
+<p><b>Description: </b>The Apache Log4j API</p>
+<p><b>URL: </b><a class="externalLink" href="http://logging.apache.org/log4j/2.x/log4j-api/">http://logging.apache.org/log4j/2.x/log4j-api/</a></p>
+<p><b>Project License: </b><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">The Apache Software License, Version 2.0</a></p></td></tr></table></div></li>
+<li>org.apache.logging.log4j:log4j-core:jar:2.1 (compile) <img id="_img41" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep40', '_img41' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep40" style="display:none">
+<table border="0" class="bodyTable">
+<tr class="a">
+<th>Apache Log4j Core</th></tr>
+<tr class="b">
+<td>
+<p><b>Description: </b>The Apache Log4j Implementation</p>
+<p><b>URL: </b><a class="externalLink" href="http://logging.apache.org/log4j/2.x/log4j-core/">http://logging.apache.org/log4j/2.x/log4j-core/</a></p>
+<p><b>Project License: </b><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">The Apache Software License, Version 2.0</a></p></td></tr></table></div></li>
+<li>org.apache.logging.log4j:log4j-slf4j-impl:jar:2.1 (compile) <img id="_img43" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep42', '_img43' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep42" style="display:none">
+<table border="0" class="bodyTable">
+<tr class="a">
+<th>Apache Log4j SLF4J Binding</th></tr>
+<tr class="b">
+<td>
+<p><b>Description: </b>The Apache Log4j SLF4J API binding to Log4j 2 Core</p>
+<p><b>URL: </b><a class="externalLink" href="http://logging.apache.org/log4j/2.x/log4j-slf4j-impl/">http://logging.apache.org/log4j/2.x/log4j-slf4j-impl/</a></p>
+<p><b>Project License: </b><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">The Apache Software License, Version 2.0</a></p></td></tr></table></div></li>
+<li>com.fasterxml.jackson.core:jackson-core:jar:2.4.4 (compile) <img id="_img45" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep44', '_img45' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep44" style="display:none">
+<table border="0" class="bodyTable">
+<tr class="a">
+<th>Jackson-core</th></tr>
+<tr class="b">
+<td>
+<p><b>Description: </b>Core Jackson abstractions, basic JSON streaming API implementation</p>
+<p><b>URL: </b><a class="externalLink" href="https://github.com/FasterXML/jackson">https://github.com/FasterXML/jackson</a></p>
+<p><b>Project License: </b><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">The Apache Software License, Version 2.0</a></p></td></tr></table></div></li>
+<li>com.fasterxml.jackson.core:jackson-databind:jar:2.4.4 (compile) <img id="_img47" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep46', '_img47' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep46" style="display:none">
+<table border="0" class="bodyTable">
+<tr class="a">
+<th>jackson-databind</th></tr>
+<tr class="b">
+<td>
+<p><b>Description: </b>General data-binding functionality for Jackson: works on core streaming API</p>
+<p><b>URL: </b><a class="externalLink" href="http://github.com/FasterXML/jackson">http://github.com/FasterXML/jackson</a></p>
+<p><b>Project License: </b><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">The Apache Software License, Version 2.0</a></p></td></tr></table></div></li>
+<li>com.fasterxml.jackson.core:jackson-annotations:jar:2.4.4 (compile) <img id="_img49" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_dep48', '_img49' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_dep48" style="display:none">
+<table border="0" class="bodyTable">
+<tr class="a">
+<th>Jackson-annotations</th></tr>
+<tr class="b">
+<td>
+<p><b>Description: </b>Core annotations used for value types, used by Jackson data binding package.</p>
+<p><b>URL: </b><a class="externalLink" href="http://github.com/FasterXML/jackson">http://github.com/FasterXML/jackson</a></p>
+<p><b>Project License: </b><a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.txt">The Apache Software License, Version 2.0</a></p></td></tr></table></div></li></ul></li></ul></div></div><a name="Licenses"></a>
 <div class="section">
 <h2><a name="Licenses"></a>Licenses</h2>
 <p><b>Apache 2: </b>Joda-Time</p>
@@ -550,7 +565,7 @@ Unix Compress, DEFLATE and ar, cpio, jar, tar, zip, dump, 7z, arj.</p>
 <p><b>Apache License, Version 2.0: </b>Utilt, acute</p>
 <p><b>BSD 2-Clause License: </b>Concrete - Core</p>
 <p><b>New BSD License: </b>Hamcrest Core</p>
-<p><b>2-clause BSD license: </b>Safe, Utility</p>
+<p><b>2-clause BSD license: </b>Safe, Utility, Validation</p>
 <p><b>The Apache Software License, Version 2.0: </b>Apache Commons Compress, Apache Log4j API, Apache Log4j Core, Apache Log4j SLF4J Binding, Apache Thrift, Commons Codec, Commons IO, Commons Lang, Commons Logging, Jackson-annotations, Jackson-core, jackson-databind</p>
 <p><b>Common Public License Version 1.0: </b>JUnit</p></div><a name="Dependency_File_Details"></a>
 <div class="section">
@@ -637,6 +652,14 @@ Unix Compress, DEFLATE and ar, cpio, jar, tar, zip, dump, 7z, arj.</p>
 <td>1.6</td>
 <td>Yes</td></tr>
 <tr class="a">
+<td>concrete-util-4.4.4-SNAPSHOT.jar</td>
+<td>73.21 kB</td>
+<td>90</td>
+<td>61</td>
+<td>14</td>
+<td>1.6</td>
+<td>Yes</td></tr>
+<tr class="b">
 <td>utilt-1.2.0.jar</td>
 <td>5.57 kB</td>
 <td>17</td>
@@ -644,7 +667,7 @@ Unix Compress, DEFLATE and ar, cpio, jar, tar, zip, dump, 7z, arj.</p>
 <td>3</td>
 <td>1.6</td>
 <td>Yes</td></tr>
-<tr class="b">
+<tr class="a">
 <td>joda-time-2.7.jar</td>
 <td>589.29 kB</td>
 <td>674</td>
@@ -652,7 +675,7 @@ Unix Compress, DEFLATE and ar, cpio, jar, tar, zip, dump, 7z, arj.</p>
 <td>7</td>
 <td>1.5</td>
 <td>Yes</td></tr>
-<tr class="a">
+<tr class="b">
 <td>junit-4.11.jar</td>
 <td>245.04 kB</td>
 <td>266</td>
@@ -660,7 +683,7 @@ Unix Compress, DEFLATE and ar, cpio, jar, tar, zip, dump, 7z, arj.</p>
 <td>28</td>
 <td>1.5</td>
 <td>Yes</td></tr>
-<tr class="b">
+<tr class="a">
 <td>commons-compress-1.9.jar</td>
 <td>378.22 kB</td>
 <td>234</td>
@@ -668,7 +691,7 @@ Unix Compress, DEFLATE and ar, cpio, jar, tar, zip, dump, 7z, arj.</p>
 <td>21</td>
 <td>1.5</td>
 <td>Yes</td></tr>
-<tr class="a">
+<tr class="b">
 <td>commons-lang3-3.1.jar</td>
 <td>315.80 kB</td>
 <td>179</td>
@@ -676,7 +699,7 @@ Unix Compress, DEFLATE and ar, cpio, jar, tar, zip, dump, 7z, arj.</p>
 <td>12</td>
 <td>1.5</td>
 <td>Yes</td></tr>
-<tr class="b">
+<tr class="a">
 <td>httpclient-4.2.5.jar</td>
 <td>433.37 kB</td>
 <td>359</td>
@@ -684,7 +707,7 @@ Unix Compress, DEFLATE and ar, cpio, jar, tar, zip, dump, 7z, arj.</p>
 <td>21</td>
 <td>1.5</td>
 <td>Yes</td></tr>
-<tr class="a">
+<tr class="b">
 <td>httpcore-4.2.4.jar</td>
 <td>227.27 kB</td>
 <td>216</td>
@@ -692,7 +715,7 @@ Unix Compress, DEFLATE and ar, cpio, jar, tar, zip, dump, 7z, arj.</p>
 <td>14</td>
 <td>1.5</td>
 <td>Yes</td></tr>
-<tr class="b">
+<tr class="a">
 <td>log4j-api-2.1.jar</td>
 <td>133.53 kB</td>
 <td>100</td>
@@ -700,7 +723,7 @@ Unix Compress, DEFLATE and ar, cpio, jar, tar, zip, dump, 7z, arj.</p>
 <td>6</td>
 <td>1.6</td>
 <td>Yes</td></tr>
-<tr class="a">
+<tr class="b">
 <td>log4j-core-2.1.jar</td>
 <td>824.75 kB</td>
 <td>623</td>
@@ -708,7 +731,7 @@ Unix Compress, DEFLATE and ar, cpio, jar, tar, zip, dump, 7z, arj.</p>
 <td>40</td>
 <td>1.6</td>
 <td>Yes</td></tr>
-<tr class="b">
+<tr class="a">
 <td>log4j-slf4j-impl-2.1.jar</td>
 <td>22.54 kB</td>
 <td>26</td>
@@ -716,7 +739,7 @@ Unix Compress, DEFLATE and ar, cpio, jar, tar, zip, dump, 7z, arj.</p>
 <td>2</td>
 <td>1.6</td>
 <td>Yes</td></tr>
-<tr class="a">
+<tr class="b">
 <td>libthrift-0.9.1.jar</td>
 <td>217.05 kB</td>
 <td>177</td>
@@ -724,7 +747,7 @@ Unix Compress, DEFLATE and ar, cpio, jar, tar, zip, dump, 7z, arj.</p>
 <td>7</td>
 <td>1.5</td>
 <td>Yes</td></tr>
-<tr class="b">
+<tr class="a">
 <td>hamcrest-core-1.3.jar</td>
 <td>45.02 kB</td>
 <td>52</td>
@@ -732,7 +755,7 @@ Unix Compress, DEFLATE and ar, cpio, jar, tar, zip, dump, 7z, arj.</p>
 <td>3</td>
 <td>1.5</td>
 <td>Yes</td></tr>
-<tr class="a">
+<tr class="b">
 <td>mockito-all-1.9.5.jar</td>
 <td>1.58 MB</td>
 <td>1372</td>
@@ -740,7 +763,7 @@ Unix Compress, DEFLATE and ar, cpio, jar, tar, zip, dump, 7z, arj.</p>
 <td>74</td>
 <td>1.5</td>
 <td>Yes</td></tr>
-<tr class="b">
+<tr class="a">
 <td>slf4j-api-1.7.7.jar</td>
 <td>29.26 kB</td>
 <td>35</td>
@@ -748,7 +771,7 @@ Unix Compress, DEFLATE and ar, cpio, jar, tar, zip, dump, 7z, arj.</p>
 <td>3</td>
 <td>1.5</td>
 <td>Yes</td></tr>
-<tr class="a">
+<tr class="b">
 <th>Total</th>
 <th>Size</th>
 <th>Entries</th>
@@ -756,23 +779,23 @@ Unix Compress, DEFLATE and ar, cpio, jar, tar, zip, dump, 7z, arj.</p>
 <th>Packages</th>
 <th>Java Version</th>
 <th>Debug Information</th></tr>
-<tr class="b">
-<td>23</td>
-<td>7.83 MB</td>
-<td>5954</td>
-<td>4266</td>
-<td>292</td>
-<td>1.6</td>
-<td>23</td></tr>
 <tr class="a">
-<td>compile: 20</td>
-<td>compile: 5.96 MB</td>
-<td>compile: 4264</td>
-<td>compile: 3290</td>
-<td>compile: 187</td>
-<td>-</td>
-<td>compile: 20</td></tr>
+<td>24</td>
+<td>7.90 MB</td>
+<td>6044</td>
+<td>4327</td>
+<td>306</td>
+<td>1.6</td>
+<td>24</td></tr>
 <tr class="b">
+<td>compile: 21</td>
+<td>compile: 6.03 MB</td>
+<td>compile: 4354</td>
+<td>compile: 3351</td>
+<td>compile: 201</td>
+<td>-</td>
+<td>compile: 21</td></tr>
+<tr class="a">
 <td>test: 3</td>
 <td>test: 1.87 MB</td>
 <td>test: 1690</td>
@@ -826,52 +849,55 @@ Unix Compress, DEFLATE and ar, cpio, jar, tar, zip, dump, 7z, arj.</p>
 <td>edu.jhu.hlt:concrete-safe:jar:4.4.4-SNAPSHOT</td>
 <td>-</td></tr>
 <tr class="a">
+<td>edu.jhu.hlt:concrete-util:jar:4.4.4-SNAPSHOT</td>
+<td>-</td></tr>
+<tr class="b">
 <td>edu.jhu.hlt:utilt:jar:1.2.0</td>
 <td><a class="externalLink" href="http://10.162.95.47:8081/artifactory/repo/edu/jhu/hlt/utilt/1.2.0/utilt-1.2.0.jar"><img alt="Found at http://10.162.95.47:8081/artifactory/repo" src="images/icon_success_sml.gif" /></a></td></tr>
-<tr class="b">
+<tr class="a">
 <td>joda-time:joda-time:jar:2.7</td>
 <td><a class="externalLink" href="http://10.162.95.47:8081/artifactory/repo/joda-time/joda-time/2.7/joda-time-2.7.jar"><img alt="Found at http://10.162.95.47:8081/artifactory/repo" src="images/icon_success_sml.gif" /></a></td></tr>
-<tr class="a">
+<tr class="b">
 <td>junit:junit:jar:4.11</td>
 <td><a class="externalLink" href="http://10.162.95.47:8081/artifactory/repo/junit/junit/4.11/junit-4.11.jar"><img alt="Found at http://10.162.95.47:8081/artifactory/repo" src="images/icon_success_sml.gif" /></a></td></tr>
-<tr class="b">
+<tr class="a">
 <td>org.apache.commons:commons-compress:jar:1.9</td>
 <td><a class="externalLink" href="http://10.162.95.47:8081/artifactory/repo/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar"><img alt="Found at http://10.162.95.47:8081/artifactory/repo" src="images/icon_success_sml.gif" /></a></td></tr>
-<tr class="a">
+<tr class="b">
 <td>org.apache.commons:commons-lang3:jar:3.1</td>
 <td><a class="externalLink" href="http://10.162.95.47:8081/artifactory/repo/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar"><img alt="Found at http://10.162.95.47:8081/artifactory/repo" src="images/icon_success_sml.gif" /></a></td></tr>
-<tr class="b">
+<tr class="a">
 <td>org.apache.httpcomponents:httpclient:jar:4.2.5</td>
 <td><a class="externalLink" href="http://10.162.95.47:8081/artifactory/repo/org/apache/httpcomponents/httpclient/4.2.5/httpclient-4.2.5.jar"><img alt="Found at http://10.162.95.47:8081/artifactory/repo" src="images/icon_success_sml.gif" /></a></td></tr>
-<tr class="a">
+<tr class="b">
 <td>org.apache.httpcomponents:httpcore:jar:4.2.4</td>
 <td><a class="externalLink" href="http://10.162.95.47:8081/artifactory/repo/org/apache/httpcomponents/httpcore/4.2.4/httpcore-4.2.4.jar"><img alt="Found at http://10.162.95.47:8081/artifactory/repo" src="images/icon_success_sml.gif" /></a></td></tr>
-<tr class="b">
+<tr class="a">
 <td>org.apache.logging.log4j:log4j-api:jar:2.1</td>
 <td><a class="externalLink" href="http://10.162.95.47:8081/artifactory/repo/org/apache/logging/log4j/log4j-api/2.1/log4j-api-2.1.jar"><img alt="Found at http://10.162.95.47:8081/artifactory/repo" src="images/icon_success_sml.gif" /></a></td></tr>
-<tr class="a">
+<tr class="b">
 <td>org.apache.logging.log4j:log4j-core:jar:2.1</td>
 <td><a class="externalLink" href="http://10.162.95.47:8081/artifactory/repo/org/apache/logging/log4j/log4j-core/2.1/log4j-core-2.1.jar"><img alt="Found at http://10.162.95.47:8081/artifactory/repo" src="images/icon_success_sml.gif" /></a></td></tr>
-<tr class="b">
+<tr class="a">
 <td>org.apache.logging.log4j:log4j-slf4j-impl:jar:2.1</td>
 <td><a class="externalLink" href="http://10.162.95.47:8081/artifactory/repo/org/apache/logging/log4j/log4j-slf4j-impl/2.1/log4j-slf4j-impl-2.1.jar"><img alt="Found at http://10.162.95.47:8081/artifactory/repo" src="images/icon_success_sml.gif" /></a></td></tr>
-<tr class="a">
+<tr class="b">
 <td>org.apache.thrift:libthrift:jar:0.9.1</td>
 <td><a class="externalLink" href="http://10.162.95.47:8081/artifactory/repo/org/apache/thrift/libthrift/0.9.1/libthrift-0.9.1.jar"><img alt="Found at http://10.162.95.47:8081/artifactory/repo" src="images/icon_success_sml.gif" /></a></td></tr>
-<tr class="b">
+<tr class="a">
 <td>org.hamcrest:hamcrest-core:jar:1.3</td>
 <td><a class="externalLink" href="http://10.162.95.47:8081/artifactory/repo/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"><img alt="Found at http://10.162.95.47:8081/artifactory/repo" src="images/icon_success_sml.gif" /></a></td></tr>
-<tr class="a">
+<tr class="b">
 <td>org.mockito:mockito-all:jar:1.9.5</td>
 <td><a class="externalLink" href="http://10.162.95.47:8081/artifactory/repo/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"><img alt="Found at http://10.162.95.47:8081/artifactory/repo" src="images/icon_success_sml.gif" /></a></td></tr>
-<tr class="b">
+<tr class="a">
 <td>org.slf4j:slf4j-api:jar:1.7.7</td>
 <td><a class="externalLink" href="http://10.162.95.47:8081/artifactory/repo/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar"><img alt="Found at http://10.162.95.47:8081/artifactory/repo" src="images/icon_success_sml.gif" /></a></td></tr>
-<tr class="a">
+<tr class="b">
 <th>Total</th>
 <th>repo</th></tr>
-<tr class="b">
-<td>23 (compile: 20, test: 3)</td>
+<tr class="a">
+<td>24 (compile: 21, test: 3)</td>
 <td>22</td></tr></table></div>
       </div>
     </div>

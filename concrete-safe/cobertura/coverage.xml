@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.0" branch-rate="1.0" lines-covered="0" lines-valid="6" branches-covered="0" branches-valid="0" complexity="1.0" version="2.1.1" timestamp="1426887923115">
+	<sources>
+		<source>--source</source>
+		<source>/home/max/git/conc-java-gh/safe/src/main/java</source>
+	</sources>
+	<packages>
+		<package name="edu.jhu.hlt.concrete.safe" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="edu.jhu.hlt.concrete.safe.SafetyException" filename="edu/jhu/hlt/concrete/safe/SafetyException.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="20" hits="0" branch="false"/>
+								<line number="21" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/Throwable;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="35" hits="0" branch="false"/>
+								<line number="36" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/Throwable;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="27" hits="0" branch="false"/>
+								<line number="28" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="20" hits="0" branch="false"/>
+						<line number="21" hits="0" branch="false"/>
+						<line number="27" hits="0" branch="false"/>
+						<line number="28" hits="0" branch="false"/>
+						<line number="35" hits="0" branch="false"/>
+						<line number="36" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="edu.jhu.hlt.concrete.safe.communications" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="edu.jhu.hlt.concrete.safe.communications.SafeCommunication" filename="edu/jhu/hlt/concrete/safe/communications/SafeCommunication.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="edu.jhu.hlt.concrete.safe.metadata" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="edu.jhu.hlt.concrete.safe.metadata.SafeAnnotationMetadata" filename="edu/jhu/hlt/concrete/safe/metadata/SafeAnnotationMetadata.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

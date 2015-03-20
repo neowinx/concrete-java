@@ -1,1 +1,3 @@
 edu.jhu.hlt.concrete.ingesters.base
+edu.jhu.hlt.concrete.ingesters.base.communications
+edu.jhu.hlt.concrete.ingesters.base.stream
